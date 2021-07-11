@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cube</title>
+</head>
+<body>
+    <div class="scene">
+        <div class="cube show-front">
+            <div class="cube__face cube__face--front bg-danger text-white fw-bold display-4 text-center">front</div>
+            <div class="cube__face cube__face--back bg-success text-white fw-bold display-4 text-center">back</div>
+            <div class="cube__face cube__face--right bg-warning text-white fw-bold display-4 text-center">right</div>
+            <div class="cube__face cube__face--left bg-info text-white fw-bold display-4 text-center">left</div>
+            <div class="cube__face cube__face--top bg-primary text-white fw-bold display-4 text-center">top</div>
+            <div class="cube__face cube__face--bottom bg-dark text-white fw-bold display-4 text-center">bottom</div>
+        </div>
+    </div>
+
+    <a id="front" href="#" class="btn btn-danger">Show Front</a>
+    <a id="back" href="#" class="btn btn-success">Show Back</a>
+    <a id="right" href="#" class="btn btn-warning">Show Right</a>
+    <a id="left" href="#" class="btn btn-info">Show Left</a>
+    <a id="top" href="#" class="btn btn-primary">Show Top</a>  
+    <a id="bottom" href="#" class="btn btn-dark">Show Bottom</a>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
